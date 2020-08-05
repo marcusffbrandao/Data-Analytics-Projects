@@ -39,7 +39,7 @@ Then, after cleaning and merging the four dataframes, the analysis was made thro
 2. I imported Pandas libray and Regex;
 3. I imported the first dataframe containing the "road traffic deaths by country";
 4. I cleaned it, dropping useless data, reorganizing and renamimng some columns;
-5. I mported the second dataframe containing the "registered vehicles by country";
+5. I imported the second dataframe containing the "registered vehicles by country";
 6. I eliminated the spaces in the column "Number of registered vehicles" and changed its type to float;
 7. I imported the third dataframe containing the "reported distribution of road traffic deaths by type of road user by country";
 8. I eliminated the non-numeric characters from the items in the column ' Drivers/passengers of 4-wheeled vehicles':
