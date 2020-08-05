@@ -35,24 +35,24 @@ Then, after cleaning and merging the four dataframes, the analysis was made thro
 
 #### Methodology:
 
-1. I downloaded the three dataframes from the World Health Organization website;
-2. I imported Pandas libray and Regex;
-3. I imported the first dataframe containing the "road traffic deaths by country";
-4. I cleaned it, dropping useless data, reorganizing and renamimng some columns;
-5. I imported the second dataframe containing the "registered vehicles by country";
-6. I eliminated the spaces in the column "Number of registered vehicles" and changed its type to float;
-7. I imported the third dataframe containing the "reported distribution of road traffic deaths by type of road user by country";
-8. I eliminated the non-numeric characters from the items in the column ' Drivers/passengers of 4-wheeled vehicles':
-9. I Dropped the duplicate row for the country 'Eswatini'
-10. I web scraped the United Nations table with the countries of the world sorted by their gross domestic product per capita from Wikipedia;
-11. I dropped the column 'Rank', renamed the remaining columns and the countries whose names were different than in the previous dataframes;
-12. I merged the three WHO dataframes into a new one;
-13. I renamed the countries whose names were different in a way that it would be recognizable by Tableau maps.
-14. I merged the GDP dataframe with the three WHO dataframes into a new one;
-15. I dropped null data and the columns 'Data Source','Year_x', and 'Year_y';
-16. I exported the final dataframe as a ".csv" file.
-17. I imported the file into Tableau;
-18. I created 8 dashboards and a story to analize the dataframe created.
+1. Downloading the three dataframes from the World Health Organization website;
+2. Importing Pandas libray and Regex;
+3. Importing the first dataframe containing the "road traffic deaths by country";
+4. Cleaning it, dropping useless data, reorganizing and renamimng some columns;
+5. Importing the second dataframe containing the "registered vehicles by country";
+6. Eliminating the spaces in the column "Number of registered vehicles" and change its type to float;
+7. Importing the third dataframe containing the "reported distribution of road traffic deaths by type of road user by country";
+8. Eliminating the non-numeric characters from the items in the column ' Drivers/passengers of 4-wheeled vehicles':
+9. Dropping the duplicate row for the country 'Eswatini'
+10. Web scraping the United Nations table with the countries of the world sorted by their gross domestic product per capita from Wikipedia;
+11. Dropping the column 'Rank', renamed the remaining columns and the countries whose names were different than in the previous dataframes;
+12. Merging the three WHO dataframes into a new one;
+13. Renaming the countries whose names were different in a way that it would be recognizable by Tableau maps.
+14. Merging the GDP dataframe with the three WHO dataframes into a new one;
+15. Dropping null data and the columns 'Data Source','Year_x', and 'Year_y';
+16. Exporting the final dataframe as a ".csv" file.
+17. Importing the file into Tableau;
+18. Creating 8 dashboards and a story to analize the dataframe created.
 
 #### Problems faced:
 
